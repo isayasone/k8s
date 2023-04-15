@@ -15,11 +15,6 @@ app.get('/nginx',async(req,res)=>{
 
 
 
-
-
-
-
-++
   const response=  await fetch(url)
   const body = await response.text();
   res.send(body)
